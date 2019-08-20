@@ -1,0 +1,22 @@
+.product{
+    width: 100%;
+}
+
+.product__main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.info__title{
+    margin-top: 30px;
+    font-size: 16px;
+    color: #454545;
+    margin-bottom: 55px;
+}
+
+.info__describe{
+    color: inherit;
+    margin-bottom: 25px;
+}
+

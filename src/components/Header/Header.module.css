@@ -1,0 +1,97 @@
+.header{
+  padding: 15px 0;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+
+}
+
+.block{
+  /*display: inline-block;*/
+}
+
+.logo{
+
+  text-transform: uppercase;
+  width: 270px;
+  font-size: 40px;
+
+}
+
+.logo a{
+  text-decoration: none;
+  color: hsl(350, 73%, 44%);
+}
+
+.timeWork{
+  width: 200px;
+
+  line-height: 1.2;
+}
+
+.timeWork__title{
+  font-weight: bolder;
+  color: hsl(0,0%,27%);
+}
+
+.searchItem{
+  flex: 2;
+  /*background-color: hsl(0,0%,86%);*/
+}
+
+.search__inner{
+  background-color: #EBEBEB;
+  display: flex;
+  /*padding: 5px;*/
+}
+
+.stringSearch{
+  width: 300px;
+  margin: 10px;
+  background-color: #EBEBEB;
+  border: none;
+}
+
+.stringSearch:focus{
+  outline: 0;
+
+}
+
+.searchBtn{
+  margin: 10px;
+  align-items: center;
+  /*background-color: #EBEBEB;*/
+  /*border: none;*/
+}
+
+.searchBtn:hover{
+  cursor: pointer;
+}
+
+
+.contacts{
+  flex: 1;
+  text-align: right;
+  line-height: 1.5;
+  color: hsl(350, 73%, 44%);
+  position: absolute;
+  right: 0;
+}
+
+.contacts p{
+  display: block;
+}
+
+.contacts a{
+  text-decoration: none;
+  color: hsl(350, 73%, 44%)
+
+}
+.contacts__number{
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.contacts__icon_phone{
+  margin-right: 5px;
+}

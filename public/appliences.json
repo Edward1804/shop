@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "name": "Proffi PH8856 Goose, Red чайник-кофейник",
+      "img": "/img/item.webp"
+    },
+    {
+      "id": "2",
+      "name": "Видеоняня Motorola MBP36S",
+      "img": "/img/видеоняня.webp"
+    },
+    {
+      "id": "3",
+      "name": "Samsung Smartcam SNH-V6110BN",
+      "img": "/img/smartCam.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Часы RoverMate Kid 05",
+      "img": "/img/watch.png"
+    },
+    {
+      "id": "5",
+      "name": "Мультиварка REDMOND RMC-M90",
+      "img": "/img/redmond.png"
+    }
+  ],
+  "category": "appliences",
+  "categoryRU": "Бытовая техника"
+}
+

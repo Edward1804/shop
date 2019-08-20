@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "13",
+      "name": "111",
+      "img": "/img/видеоняня.webp"
+    },
+    {
+      "id": "14",
+      "name": "222",
+      "img": "/img/видеоняня.webp"
+    },
+    {
+      "id": "15",
+      "name": "333",
+      "img": "/img/видеоняня.webp"
+    }
+  ],
+  "category": "household_products",
+  "categoryRU": "Товары для дома"
+}
+

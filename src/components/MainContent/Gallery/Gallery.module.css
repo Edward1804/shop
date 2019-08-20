@@ -1,0 +1,99 @@
+.gallery__menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 7px;
+
+}
+
+.gallery__item{
+    position: relative;
+    overflow: hidden;
+}
+
+.gallery__image{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+}
+
+.gallery__image img:hover{
+    transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+.gallery__item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery__item:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.gallery__item:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gallery__item:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gallery__item:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gallery__item:nth-child(6){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+
+.gallery__title{
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+
+}
+
+.gallery__title:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(353, 64%, 42%);
+    opacity: .8;
+
+}
+
+.gallery__text{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+}

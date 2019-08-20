@@ -1,0 +1,45 @@
+.slider {
+    width: 100%;
+    display: inline-block;
+
+}
+
+.slider__inner{
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    max-width: 80%;
+    left: 50px;
+
+}
+
+.slider__inner_title{
+    font-weight: 700;
+    text-shadow: 0 2px 4px #000;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.slider__inner_text{
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 4px #000;
+    margin-bottom: 15px;
+}
+
+.slider__inner_btn{
+    display: inline-block;
+    background-color: hsl(350, 73%, 44%);
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 400;
+
+    border-radius: 3px;
+    border: 1px solid transparent;
+    transition: background-color linear .2s;
+}
+
+.slider__inner_btn:hover{
+    background-color: hsl(350, 73%, 31%);
+    cursor: pointer;
+}

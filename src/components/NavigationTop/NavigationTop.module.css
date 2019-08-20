@@ -1,0 +1,63 @@
+.headerNav{
+    background-color: hsl(350, 73%, 44%);
+}
+
+.nav__inner{
+    display: flex;
+}
+
+
+
+
+.catalog{
+    width: 270px;
+    height: 100%;
+    background-color: hsl(350, 73%, 31%);
+
+    display: flex;
+    align-items: center;
+    /*cursor: pointer;*/
+
+    /*display: block;*/
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+
+
+.catalog span{
+
+}
+
+.menu{
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    display: flex;
+    margin: 0 15px;
+    height: 55px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    /*justify-content: space-between;*/
+}
+
+.menu__item {
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+
+    /*height: 100%;*/
+
+    list-style-type: none;
+}
+
+.menu__item:hover{
+    background-color: hsl(350, 73%, 31%);
+    cursor: pointer;
+}
+
+.img{
+
+}
